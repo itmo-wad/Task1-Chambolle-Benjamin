@@ -1,0 +1,21 @@
+div.gallery {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+div.gallery content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+div.gallery img{
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+}
